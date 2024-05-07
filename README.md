@@ -14,5 +14,5 @@
 ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?logo=openzeppelin&logoColor=fff&style=for-the-badge) 
 ![Nodejs](https://img.shields.io/badge/Node.js-5FA04E.svg?style=for-the-badge&logo=nodedotjs&logoColor=white) 
 ![Rust](https://img.shields.io/badge/Rust-000000.svg?style=for-the-badge&logo=Rust&logoColor=white) <br>
-![Ethers](https://img.shields.io/badge/Ethers-2535A0.svg?style=for-the-badge&logo=Ethers&logoColor=white) <br>
-![Polkadot](https://img.shields.io/badge/Polkadot-E6007A.svg?style=for-the-badge&logo=Polkadot&logoColor=white) <br>
+![Ethers](https://img.shields.io/badge/Ethers-2535A0.svg?style=for-the-badge&logo=Ethers&logoColor=white) 
+![Polkadot](https://img.shields.io/badge/Polkadot-E6007A.svg?style=for-the-badge&logo=Polkadot&logoColor=white) 
