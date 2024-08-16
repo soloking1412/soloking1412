@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm Maheswaran Velmurugan</h1>
-<h3 align="center">Full Stack Web3 Developer and Web3 Enthusiast</h3>
+<h3 align="center">Full Stack Web3 Developer and Web3 Security Researcher</h3>
 
 
 #### Languages:
