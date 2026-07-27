@@ -229,13 +229,6 @@ Beyond my own repos, I contribute directly to protocol-level infrastructure used
 
 ---
 
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=soloking1412&show_icons=true&theme=radical&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=soloking1412&layout=compact&theme=radical&hide_border=true)
-
----
-
 ## Open to
 
 Security reviews · Protocol audits · Full stack / backend / blockchain engineering roles · Ecosystem grants · Dev tooling collaborations
