@@ -19,7 +19,7 @@
 
 Full stack and blockchain developer with a focus on developer tooling, DeFi protocol engineering, and smart contract security. I build end-to-end — TypeScript CLI tools, Python SDKs, React frontends, Solidity/Clarity/Rust smart contracts, and backend indexers — and I ship independently without a team.
 
-Grant recipient from Arbitrum and the Stacks Foundation. Active security researcher with 15+ confirmed findings across Sherlock, Code4rena, and Immunefi. I audit the same protocols I know how to build, which means I find what others miss.
+Grant recipient from the Arbitrum Foundation and the Stacks Foundation. Active security researcher with 20+ confirmed High/Medium findings across Sherlock, Code4rena, Cantina, and Immunefi. Polkadot Technical Fellowship candidate and Polkadot Blockchain Academy graduate, with open-source contributions to `paritytech/polkadot-sdk`. I audit the same protocols I know how to build, which means I find what others miss.
 
 **Languages:** TypeScript · Python · Solidity · Rust · Clarity · Cairo · Move · JavaScript  
 **Frameworks:** Node.js · React · Next.js · Hardhat · Foundry · Anchor · web3.py · viem  
@@ -33,7 +33,9 @@ Grant recipient from Arbitrum and the Stacks Foundation. Active security researc
 
 > **CLI development environment for Arbitrum Stylus (Rust) smart contracts. Think Hardhat, but for Stylus.**
 
-Arbitrum grant-approved. Shipped both milestones. 224 NPM downloads.
+Arbitrum grant-approved. Shipped both milestones.
+![npm downloads](https://img.shields.io/npm/dt/stylus-toolkit?style=flat-square&label=npm%20downloads)
+![stars](https://img.shields.io/github/stars/soloking1412/Stylus-Toolkit?style=flat-square)
 
 ```bash
 stylus-toolkit init --name my-token --template erc20
@@ -137,20 +139,41 @@ Adding a new protocol = one new adapter contract. Core vault never changes.
 
 ---
 
+## Open Source Contributions
+
+Beyond my own repos, I contribute directly to protocol-level infrastructure used by other teams:
+
+- **[Bitcoin Dev Kit (BDK)](https://github.com/bitcoindevkit/bdk)** — Added a `fuzz/` crate with three cargo-fuzz targets: `apply_update` (fuzzing `Wallet::apply_update` with arbitrary txs/anchors), `create_tx` (fuzzing `build_tx` with arbitrary fee rates, amounts, and RBF), and `descriptor_parse` (fuzzing arbitrary bytes through `IntoWalletDescriptor`, covering miniscript/key-path/checksum handling) — plus a `fuzz.yml` CI workflow that builds on every PR and runs extended 60-second fuzzing sessions weekly with crash-artifact upload. ([issue #61](https://github.com/bitcoindevkit/bdk/issues/61))
+- **[Polkadot SDK](https://github.com/paritytech/polkadot-sdk)** — Open and merged pull requests on `pallet-revive`'s Ethereum JSON-RPC layer, part of ongoing Polkadot Technical Fellowship work. ([view my PRs →](https://github.com/paritytech/polkadot-sdk/pulls?q=is%3Apr+author%3Asoloking1412))
+
+---
+
+## Currently Building
+
+| Project | What | Ecosystem |
+|---|---|---|
+| **Ansim** | Non-custodial consumer-protection layer for KRW-stablecoin payments — reversible-window escrow, pre-sign safety screen, Dojang-anchored dispute resolution | GIWA (OP Stack) · GASOK accelerator |
+| **AvaGuard** | Circuit breaker + Guardian Agent SDK + Invariant CLI for Avalanche L1s — 30 tests, deployed | Avalanche |
+| **SoroGuard** | Position-protection protocol for Stellar DeFi | Stellar |
+| **ComputeLens** | Compute-unit profiler for Solana programs | Solana |
+
+---
+
 ## Shipped & Deployed
 
 | Project | What | Status |
 |---|---|---|
-| [Stylus-Toolkit](https://github.com/soloking1412/Stylus-Toolkit) ⭐ 20 | CLI toolchain for Arbitrum Stylus — build, profile, deploy | ✅ Live on NPM · Arbitrum grant · Both milestones shipped |
+| [Stylus-Toolkit](https://github.com/soloking1412/Stylus-Toolkit) | CLI toolchain for Arbitrum Stylus — build, profile, deploy | ✅ Live on NPM · Arbitrum grant · Both milestones shipped |
 | [Rootstock-Agentic-DeFi-Framework](https://github.com/soloking1412/Rootstock-Agentic-DeFi-Framework) | AI agent DeFi execution layer on Rootstock/Bitcoin | ✅ Active |
 | [Rootstock-Python-SDK](https://github.com/soloking1412/Rootstock-Python-SDK) | Python SDK for RSK — wallets, ERC-20, contracts, RNS | ✅ Published on PyPI |
 | [satoshi-yield](https://github.com/soloking1412/satoshi-yield) | sBTC yield optimizer on Stacks | 🔄 In development · Stacks Foundation grant |
+| AvaGuard | Circuit breaker + Guardian Agent SDK for Avalanche L1s | ✅ Deployed · 30 tests passing |
 
 ---
 
 ## Security Research
 
-15+ confirmed findings across Sherlock, Code4rena, Cantina, and Immunefi. The same protocol knowledge that lets me build DeFi tooling also lets me find what breaks it.
+20+ confirmed High/Medium findings across Sherlock, Code4rena, Cantina, and Immunefi. The same protocol knowledge that lets me build DeFi tooling also lets me find what breaks it.
 
 | Severity | Protocol | Finding | Platform |
 |---|---|---|---|
@@ -163,7 +186,7 @@ Adding a new protocol = one new adapter contract. Core vault never changes.
 | 🟡 Medium | Brix Money | Cooldown stacking bypass — withdrawal delay circumventable | Sherlock |
 | 🟡 Medium | LicenseToken | IP derivative registration DOS via gas exhaustion | Cantina |
 
-**Rankings:** #45 Ammplify · #48 Super DCA on Sherlock
+**Rankings:** #45 Ammplify · #48 Super DCA on Sherlock — [full audit history →](https://audits.sherlock.xyz/watson/soloking)
 
 ---
 
@@ -206,10 +229,17 @@ Adding a new protocol = one new adapter contract. Core vault never changes.
 
 ---
 
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=soloking1412&show_icons=true&theme=radical&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=soloking1412&layout=compact&theme=radical&hide_border=true)
+
+---
+
 ## Open to
 
 Security reviews · Protocol audits · Full stack / backend / blockchain engineering roles · Ecosystem grants · Dev tooling collaborations
 
 <div align="center">
-<sub>Tamil Nadu, India · Polkadot Blockchain Academy Graduate · Superteam India · Solo since day one</sub>
+<sub>Tamil Nadu, India · Polkadot Blockchain Academy Graduate · Polkadot Technical Fellowship Candidate · Superteam India · Solo since day one</sub>
 </div>
